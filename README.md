@@ -2,6 +2,14 @@
 
 Incremental archive of NSE **Daily Snapshot (csv)** index OHLC data. Files are stored under `Day_Index/NSE` using NSE's `ind_close_all_DDMMYYYY.csv` naming.
 
+Canonical repository: [olo-ai-training-data-nse-day-index-candle](https://github.com/olo-labs/olo-ai-training-data-nse-day-index-candle).
+
+```powershell
+git clone https://github.com/olo-labs/olo-ai-training-data-nse-day-index-candle.git
+cd olo-ai-training-data-nse-day-index-candle
+git pull --ff-only origin main
+```
+
 Run `index_data_downloader.bat`, or:
 
 ```powershell
